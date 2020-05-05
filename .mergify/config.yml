@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: Testing auto merge from github-actions bot
+    conditions:
+      - author=github-actions[bot]
+    actions:
+      merge:
+        method: merge
