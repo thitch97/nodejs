@@ -11,11 +11,11 @@ api = "0.2"
   [[metadata.dependencies]]
     id = "paketo-buildpacks/node-engine"
     sha256 = "ae92b009fb167ed56cf19e5050480606ca7e17dda977e73225f4d1e43d03956e"
-    source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.178.tar.gz"
+    source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.195.tar.gz"
     source_sha256 = "9b6f8dd2f03d5ee704605bbca4503d973d08a7ed236712c66de5c7a71867af46"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine_0.0.178_linux_noarch_any-stack_ae92b009.tgz"
-    version = "0.0.178"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine_0.0.195_linux_noarch_any-stack_ae92b009.tgz"
+    version = "0.0.195"
 
   [[metadata.dependencies]]
     id = "paketo-buildpacks/npm"
